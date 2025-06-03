@@ -7,8 +7,8 @@ import Debug "mo:base/Debug";
 actor Token {
 
     Debug.print("Hello");
-    let owner : Principal = Principal.fromText("f6zbe-ifkcy-yaua7-rhnyz-rz7wy-n4bns-7zdzt-yuubd-wsa6n-cefqy-rae");
-    let totalSupply : Nat = 2000000000;
+    let owner : Principal = Principal.fromText("adsa3-gfeww-bpnjs-uqwzp-wsiwt-4s5lo-vqkbw-tf57a-nmzgc-izzkj-iae");
+    let totalSupply : Nat = 1000000000;
     let symbol : Text = "DPRA";
 
     private stable var balancesEntry : [(Principal, Nat)] = [];
